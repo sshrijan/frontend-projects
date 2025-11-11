@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn button{
+            border-radius: 25%;
+        }
+        .btn button:hover{
+            background-color: rgb(234, 144, 7);
+            cursor: pointer;
+        }
+        .btn button:active{
+            background-color: rgb(14, 183, 185);
+        }
+        .btn button:focus{
+            border: 2px solid rgb(240, 4, 4);
+        }
+        .btn a :visited{
+            background-color: blue;
+        }
+        
+        .item-list li:nth-child(odd){
+            background-color: rgb(130, 120, 215);
+        }
+        .item-list li:nth-child(even){
+            background-color: aqua;
+        }
+        .item-list li:first-child{
+            background-color: rgb(13, 50, 236);
+        }
+
+        .item-list li:last-child{
+            background-color: rgb(240, 205, 5);
+        }
+        
+        div div:not(.fancy){
+            background-color: rgb(162, 160, 164);
+        }
+
+        .card:has(> p){
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- exercise 1 and 2 -->
+     <div class="btn">
+        <a href="https://www.youtube.com/"><button>Youtube</button></a>
+        <a href="https://www.facebook.com/"><button>Facebook</button></a>
+        <a href="https://www.github.com/"><button>GitHub</button></a>
+     </div>
+
+     <div>
+        <ul class="item-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+        </ul>
+     </div>
+
+
+    <div class="test">
+        <div class="fancy">
+            <p>fancy 1</p>
+        </div>
+        <div class="">
+            <p>fancy 1</p>
+        </div>
+        <div class="fancy">
+            <p>fancy 1</p>
+        </div>
+    </div>
+
+    <!-- assignment 5 -->
+    <div class="card">
+        <h2>Heading 2</h2>
+        <p>This is a paragraph</p>
+    </div>
+</body>
+</html>

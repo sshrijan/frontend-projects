@@ -1,0 +1,94 @@
+* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 10px 30px;
+            width: 500px;
+            background-color: white;
+            line-height: 2;
+            border-radius: 10px;
+        }
+
+        form h1 {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        form input {
+            border-radius: 4px;
+            padding: 10px 5px;
+            border: 1px solid rgba(9, 0, 0, 0.208);
+        }
+
+        input[type=radio] {
+            width:15px;
+            height:15px;
+        }
+
+        input[type=checkbox] {
+            width:15px;
+            height:15px;
+        }
+         .location{
+            display: flex;
+        }
+        
+        .location #city {
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        .location select {
+            width: 150px;
+            padding: 9px 0;
+            border: 1px solid rgba(0, 0, 0, 0.208);
+            box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.224);
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .location #zip {
+            width: 80px;
+        }
+        
+
+        label, input::placeholder {
+            font-family: "poppins";
+            font-weight: 550;
+
+        }
+
+        .fullname input{
+            width: 200px;
+        }
+
+
+
+        .place-order{
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #Sbtn{
+            width: 100px;
+            height: 38px;
+            cursor: pointer;
+            background-color: #686de0;
+            color: white;
+        }
+         #Sbtn:hover{
+            background-color: #34d4a4;
+         }
+         #Sbtn:focus{
+            background-color: #e4c10e;
+         }

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 45%;
+    align-items: center;
+    border: 2px solid grey;
+    margin-top: 10vh;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.container h2{
+    margin-top: 5%;
+
+}
+.container h1{
+    color: red;
+    font-family: sans-serif;
+}
+
+.text-alignment{
+    text-align: center;
+}
+
+table{
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10%;
+}
+
+.container td{
+    text-align: center;
+}
+
+th{
+    background-color: rgba(248, 248, 157, 0.942);
+}
+
+.table-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.styled-total-marks{
+    background-color: rgba(97, 97, 215, 0.805);
+}
+
+.styled-passing-marks{
+    background-color: rgb(238, 179, 70);
+}
+
+.styled-total-obtained{
+    background-color: rgb(118, 221, 100);
+}
+
+.table-4{
+    margin: auto;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    /* here -webkit-backdrop-filter doesnot replace backdrop-filter because browser prioritzes backdrop-filter first
+     */
+     
+
+}
+.table-4 td{
+    color: red;
+    width: 90%;
+    backdrop-filter: blur(10px);
+
+}

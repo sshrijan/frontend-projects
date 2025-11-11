@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <h1>Sign Up </h1>
+        <label for="email">Email address</label> 
+        <input type="email" name="email" id="email" placeholder="email"><br>
+
+        
+      <div class="fullname">
+          <label for="fullname">Full name </label> <br>
+        <input type="text" name="firstname" placeholder="firstname">
+        <input type="text" name="lastname" placeholder="lastname">
+    </div>
+    <br>
+
+        <label for="address">Address</label> 
+        <input type="text" name="street address" id="address" placeholder="Street Address" style="margin-bottom: 10px;"> 
+        <input type="text" name="office address" id="address" placeholder="Office , Suite, Apt.">
+        <br>
+
+        <div class="location">
+            
+            <div>
+                 <label for="city">city</label> <br>
+            <input type="text" name="" id="city">
+            </div>
+
+        <div>
+            <label for="state">state</label> <br>
+        <select name="state" id="">
+            <option value="Choose" selected>choose</option>
+            <option value="province1">Koshi</option>
+            <option value="province2">Karnali</option>
+            <option value="province3">bagmati</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="zip">zip</label> <br>
+        <input type="text" name="" id="zip">
+        </div>
+
+        </div>
+        <br>
+
+        <div>
+            <label > what radio technology are you using?</label> <br>
+
+        <input type="checkbox" name="2G" id="2G"> <label for="2G">2G</label>  &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="checkbox" name="3G" id="3G"> <label for="3G">3G</label> &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="checkbox" name="4G LTE" id="4G"> <label for="4G">4G LTE</label> &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="checkbox" name="CAT-M" id="CAT"> <label for="CAT-M">CAT-M</label> &nbsp; &nbsp; &nbsp; &nbsp;
+        </div>
+        <br>
+
+      <div>
+          <label>How much data do you expect to use each month?</label> <br>
+
+          <input type="radio" name="bandwidth" value="0-50" id="0-50">
+          <label for="0-50">0-50</label>
+            &nbsp; &nbsp;
+          <input type="radio" name="bandwidth" value="50-250" id="50-250"> 
+          <label for="50-250">50-250</label>
+            &nbsp; &nbsp;
+          <input type="radio" name="bandwidth" value="250 - 1GB" id="250 - 1GB">
+          <label for="250 - 1GB">250 - 1GB</label>
+            &nbsp; &nbsp;
+          <inpu`t type="radio" name="bandwidth" value="250 - 1GB" id="250 - 1GB" disabled>
+          <label for="250 - 1GB" style="color: rgba(11, 10, 9, 0.317);">1GB+</label>
+      </div>
+
+        <br>
+        <label for="promocode">promocode</label>
+        <input type="text" name="promocode" id="promocode">
+        <br>
+
+
+        <div class="place-order">
+             <div>
+                <input type="checkbox" name="agree" id="agree"> <label for="agree">Sign me up for anonying offers</label>
+             </div>
+             <a href="https://www.daraz.com.np/">
+                <input type="button" value="Place order" id="Sbtn">
+            </a>
+        </div>
+    </form>
+</body>
+
+</html>
